@@ -1,3 +1,18 @@
 @media screen and (max-width: 500px) {
-    
+    .pc-view {
+        display: none;
+    }
+    .mobile-view {
+        display: flex;
+    }
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-body {
+        flex-direction: column-reverse;
+    }
+    .logos {
+        flex-wrap: wrap;
+    }
 }

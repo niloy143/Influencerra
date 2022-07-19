@@ -13,9 +13,15 @@
 body {
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
+}
+
+header, main {
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid black;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* ========================== Header Part Started ========================== */
@@ -85,6 +91,17 @@ nav i {
 button i {
     font-size: 24px;
 }
+
+
+/* =============== Mobile View =============== */
+
+.mobile-view {
+    display: none;
+}
+
+
+/* =============== Mobile View =============== */
+
 
 /* Header End  */
 
@@ -225,3 +242,36 @@ button i {
 
 /* Feature Part Done  */
 
+footer {
+    background: #0A0826;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+footer p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer .social {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.social i {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
